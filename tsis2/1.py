@@ -1,2 +1,3 @@
-if 3<5:
-    print("true!")
+class Solution:
+    def defangIPaddr(self, address: str) -> str:
+        return (address.replace(".","[.]"))
